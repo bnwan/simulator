@@ -1,0 +1,22 @@
+{
+  "name": "simulator",
+  "version": "1.0.0",
+  "description": "ReactiveTrader data simulator",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:bnwan/simulator.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Nwaneampeh",
+  "license": "ISC",
+  "dependencies": {
+    "rx": "^2.3.24"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "buildModule": "git+ssh://git@github.com:bnwan/buildModule.git"
+  }
+}
